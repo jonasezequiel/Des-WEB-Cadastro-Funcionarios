@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Funcionarios</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Montserrat:ital@0;1&display=swap');
+    </style>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="shortcut icon" href="/img/icon.png">
+</head>
+<body>
+    <header>
+      
+    </header>
+    <main class="tela__lista">
+    <table>
+        <thead>
+                <tr class="coluna__tabela">
+                    <th class="titulo__tabela"> </th>
+                    <th class="titulo__tabela">Nome</th>
+                    <th class="titulo__tabela">CPF</th>
+                    <th class="titulo__tabela"> </th>
+                </tr>
+        </thead>
+        <tbody>
+                <tr data-th-each="funcionario: ${funcionarios}">
+                        <td class="coluna__tabela" data-th-text="${funcionario.id}"></td>
+                        <td class="coluna__tabela" data-th-text="${funcionario.nome}"></td>
+                        <td class="coluna__tabela" data-th-text="${funcionario.cpf}"></td>
+                        <td class="botao"><a class="nome__botao__excluir" th:href="@{'/funcionario/excluir/'+${funcionario.id}}">Excluir</a></td>
+                </tr>
+
+        </tbody>
+    </table>
+    </main>
+    <footer>
+
+    </footer>
+  
+</body>
+</html>
+

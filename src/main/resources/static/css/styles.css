@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat+Alternates:wght@600 & display=swap');
+
+body{
+    
+    box-sizing: border-box;
+    width: 100%; 
+    height: 100vh;
+    margin: 0; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background: #BCF5CC;
+    font-family: 'SuaFontePersonalizada', sans-serif;
+}
+.tela__login{
+    width: 1050px;
+    height: 684px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.imagem__login{
+    width: 434px;
+    height: 502px;
+    flex-shrink: 0;
+    border-radius: 200px;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.cadastro{
+    width: 438px;
+    height: 550px;
+    flex-shrink: 0;
+    border-radius: 21px;
+    background: rgba(135, 243, 231, 0.51);
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.titulo__cadastro{
+    text-align: center;
+    color: #07B699;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: 'Montserrat Alternates', sans-serif;;
+}
+
+.nome__campo{
+    display: block;
+    margin-left: 20px;
+    color: #07B699;
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.campo{
+    margin: 10px 10px 10px 10px;
+    width: 321px;
+    height: 47px;
+    flex-shrink: 0;
+    margin-top: 10px;
+    border-radius: 21px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 15px;
+   
+}
+
+.botao{
+    width: 251px;
+    height: 43px;
+    margin: 15px;
+    flex-shrink: 0;
+    border-radius: 1000px;
+    background: #07B699;
+    border: none;
+    cursor: pointer;
+}
+
+.nome__botao{
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.titulo__tabela{
+    width: 250px;
+    text-align: center;
+    color: #07B699;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: 'Montserrat Alternates', sans-serif; 
+    justify-content: center; 
+    
+}
+.conteudo__tabela{
+    margin: 10px 10px 10px 10px;
+    width: 321px;
+    height: 47px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.tela__lista{
+    width: 1050px;
+    height: 684px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+
+}
+.coluna__tabela{
+
+    text-align: center;
+    
+}
+.nome__botao__excluir {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    border: none;
+    text-decoration: none;
+    /* opcional: definir a altura e largura do botão conforme necessário */
+}
+

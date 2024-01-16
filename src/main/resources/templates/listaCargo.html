@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Cargos</title>
+</head>
+<body>
+    <header>
+      
+    </header>
+    <main>
+    <table>
+        <thead>
+                <tr>
+                    <th> </th>
+                    <th>Cargo: </th>
+                    <th>Descrição: </th>
+                    <th> </th>
+                </tr>
+        </thead>
+        <tbody>
+                <tr data-th-each="cargo: ${cargos}">
+                        <td data-th-text="${cargo.id_cargo}"></td>
+                        <td data-th-text="${cargo.profissao}"></td>
+                        <td data-th-text="${cargo.descricao}"></td>
+                        <td><a th:href="@{'/cargo/excluir/'+${cargo.id_cargo}}">Excluir</a></td>
+                </tr>
+
+        </tbody>
+    </table>
+    </main>
+    <footer>
+
+    </footer>
+  
+</body>
+</html>
