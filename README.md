@@ -1,4 +1,4 @@
-Use o ambiente de desenvolvimento Visual Studio Code para executar o código fornecido. Este código tem como objetivo criar um banco de dados simples no PostgreSQL. Certifique-se de realizar as alterações necessárias nos parâmetros de conexão no arquivo denominado 'conexão'. Para facilitar a compreensão e execução do projeto, siga as instruções abaixo:
+Use o ambiente de desenvolvimento Visual Studio Code para executar o código fornecido. Este código tem como objetivo criar um banco de dados simples no PostgreSQL. Certifique-se de realizar as alterações necessárias nos parâmetros de conexão no arquivo denominado 'Conexão.java'. Para facilitar a compreensão e execução do projeto, siga as instruções abaixo:
 
 Ambiente de Desenvolvimento:
 
